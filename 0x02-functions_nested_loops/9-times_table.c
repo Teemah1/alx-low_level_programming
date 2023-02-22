@@ -6,10 +6,11 @@
 void times_table(void)
 {
 	int i;
+	int n;
 
-	if (i != 0 && i < 0)
+	if (n != 0 && n < 0)
 	{
-		return(1);
+		_putchar(x);
 	}
 	else
 	{
