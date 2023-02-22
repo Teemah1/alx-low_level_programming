@@ -7,7 +7,7 @@ void times_table(void)
 {
 	int i;
 
-	if (i >= 48 && i <= 59)
+	while (i >= 0)
 	{
 		for (i = 0; i <= 9; i++)
 	{
