@@ -4,9 +4,8 @@
  * @lastDigit: integer
  * Return: value of last digit
  */
-int print_last_digit(int lastDigit)
+int print_last_digit(int lastDigit, n)
 {
-	int n;
 
 	lastDigit = n % 10;
 	return (lastDigit);
