@@ -4,7 +4,7 @@
  * @lastDigit: integer
  * Return: value of last digit
  */
-int print_last_digit(int lastDigit, n)
+int print_last_digit(int lastDigit, int n)
 {
 
 	lastDigit = n % 10;
