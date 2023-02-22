@@ -7,7 +7,9 @@ void times_table(void)
 {
 	int i;
 
-	for (i = 0; i <= 9; i++)
+	if (i >= 48 && i <= 59)
+	{
+		for (i = 0; i <= 9; i++)
 	{
 		int j;
 		int result;
@@ -24,5 +26,6 @@ void times_table(void)
 			}
 		}
 		_putchar('\n');
+	}
 	}
 }
