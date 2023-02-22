@@ -4,18 +4,18 @@
  *@int: integer
  * Return: 0
  */
-int _abs(int)
+int _abs(int j)
 {
 	int n;
 
-	if (n < 0)
+	if (j < 0)
 	{
-		n = n * (-1);
-		_putchar(n);
+		n = j * (-1);
+		return (n);
 	}
 	else
 	{
-		putchar(n);
+		return (j);
 	}
 	return (0);
 
