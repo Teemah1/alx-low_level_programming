@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isupper - checks if the char is an upper case letter
- *@c: a char
- *return: 0
+ *_isupper - checks if the char is an upper case letter
+ *@c: an integer
+ *Return: 0
  */
 int _isupper(int c)
 {
@@ -10,7 +10,7 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
