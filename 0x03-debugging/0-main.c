@@ -9,7 +9,8 @@ int main(void)
 {
 	int i;
 
-	i = 000;
+	i = 16;
 	positive_or_negative(i);
+	printf("%i\n", i);
 	return (0);
 }
