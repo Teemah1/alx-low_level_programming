@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * put2 - prints strings
+ * puts2 - prints strings
  * @str: a parameter
  * Return: 0
  */
